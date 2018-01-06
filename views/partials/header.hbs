@@ -1,0 +1,19 @@
+<!-- navigation -->
+<div class="nav-container blue circleBehind row middle-xs middle-md">
+  <a href="/">
+    <div class="logo">
+      <h1>landerr</h1>
+    </div>
+  </a>
+  <div class="nav-items">
+    {{#if user}}
+      <p>Logged in as: {{ user.username }}</p>
+    {{/if}}
+    <ul>
+      <li><a class="nav-item"><i class="material-icons">fingerprint</i></a></li>
+      <li><a class="nav-item" href="/login"><i class="material-icons">assignment_ind</i></a></li>
+      <li><a class="nav-item"><i class="material-icons">error</i></a></li>
+    </ul>
+  </div>
+</div>
+<!-- /navigation -->

@@ -1,0 +1,28 @@
+{{> header }}
+
+<!-- dashboard -->
+<div class="row dashboard">
+
+  {{> left_sidebar }}
+
+  <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 main-content">
+    {{#if user}}
+      <p>Logged in as</p>
+    {{/if}}
+    <div class="row">
+
+      {{#each user.properties}}
+        {{> content_box }}
+      {{/each}}
+
+    </div>
+
+    <div class="row">
+      <a class="full-width" href="/add-property"><div class="btn primary-btn full-width-btn">add property</div></a>
+    </div>
+  </div>
+
+  {{> right_sidebar }}
+
+</div>
+<!-- /dashboard -->

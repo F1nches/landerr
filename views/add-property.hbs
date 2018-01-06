@@ -1,0 +1,39 @@
+{{> header }}
+
+<!-- dashboard -->
+<div class="row dashboard">
+
+  {{> left_sidebar }}
+
+  <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 main-content">
+    <div class="row center-md center-lg">
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+        <h1>Add property</h1>
+
+        <form id="property-form" class="form property-form" action="/property" method="POST">
+
+          <input id="address" type="text" placeholder="Enter address" name="name">
+          <input id="tenant" type="text" placeholder="Current tenant" name="tenant">
+          <input id="lease" type="text" placeholder="Lease term" name="lease">
+          <div class="image-upload">
+            <img id="blah" alt="your image" src="../images/no-preview.jpg"/>
+            <!-- show preview image -->
+            <input type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])" name="image">
+          </div>
+          <textarea id="notes" type="text" placeholder="Notes" name="notes"></textarea>
+
+          <input id="submit" class="btn primary-btn full-width-btn" type="submit" value="submit">
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+  {{> right_sidebar }}
+
+</div>
+<!-- /dashboard -->

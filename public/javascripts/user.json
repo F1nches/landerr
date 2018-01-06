@@ -1,0 +1,87 @@
+{
+	"user": "Saquon Barkley",
+	"properties": [
+		{
+			"propertyLink": "#1",
+			"propertyAddress": "627 Crescent Ave",
+			"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+			"propertyTenant": "John Tenant1",
+			"propertyLease": "06/2018",
+			"propertyNotes": "These are notes about the 627 Crescent Ave property."
+		},
+		{
+			"propertyLink": "#2",
+      "propertyAddress": "727 Crescent Ave",
+			"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+			"propertyTenant": "John Tenant1",
+			"propertyLease": "06/2018",
+			"propertyNotes": "These are notes about the 627 Crescent Ave property."
+		},
+		{
+			"propertyLink": "#3",
+      "propertyAddress": "827 Crescent Ave",
+			"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+			"propertyTenant": "John Tenant1",
+			"propertyLease": "06/2018",
+			"propertyNotes": "These are notes about the 627 Crescent Ave property."
+		},
+		{
+			"propertyLink": "#4",
+      "propertyAddress": "927 Crescent Ave",
+			"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+			"propertyTenant": "John Tenant1",
+			"propertyLease": "06/2018",
+			"propertyNotes": "These are notes about the 627 Crescent Ave property."
+		},
+		{
+				"propertyLink": "#1",
+				"propertyAddress": "627 Crescent Ave",
+				"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+				"propertyTenant": "John Tenant1",
+				"propertyLease": "06/2018",
+				"propertyNotes": "These are notes about the 627 Crescent Ave property."
+			},
+			{
+				"propertyLink": "#2",
+	      "propertyAddress": "727 Crescent Ave",
+				"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+				"propertyTenant": "John Tenant1",
+				"propertyLease": "06/2018",
+				"propertyNotes": "These are notes about the 627 Crescent Ave property."
+			},
+			{
+				"propertyLink": "#3",
+	      "propertyAddress": "827 Crescent Ave",
+				"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+				"propertyTenant": "John Tenant1",
+				"propertyLease": "06/2018",
+				"propertyNotes": "These are notes about the 627 Crescent Ave property."
+			},
+			{
+				"propertyLink": "#4",
+	      "propertyAddress": "927 Crescent Ave",
+				"propertyImage": "https://images.pexels.com/photos/754278/pexels-photo-754278.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb",
+				"propertyTenant": "John Tenant1",
+				"propertyLease": "06/2018",
+				"propertyNotes": "These are notes about the 627 Crescent Ave property."
+			}
+	],
+	"todos": [
+		{
+			"title": "Call tenant from 1B",
+			"message": "Tenant concerned about water leaking."
+		},
+		{
+			"title": "Return paint",
+			"message": "Wrong color of paint. Return to Lowe's by 01/21/18"
+		},
+		{
+			"title": "Finish painting room at 1C",
+			"message": "Call painter to finish painting unit by the end of January."
+		},
+		{
+			"title": "Call tenant from 1C",
+			"message": "Let them know that pest control is stopping by in a week."
+		}
+	]
+}
